@@ -1,0 +1,6 @@
+[
+  {"id": 1, "name": "ichou", "salary": 55000.0, "department": "Artificial Intelegent"},
+  {"id": 2, "name": "youssef", "salary": 15000.0, "department": "Dev"},
+  {"id": 3, "name": "Mohamed", "salary": 12500.0, "department": "Data Science"},
+  {"id": 4, "name": "Jamal", "salary": 24000.0, "department": "Data Science"}
+]

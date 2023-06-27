@@ -1,0 +1,11 @@
+Id,Title,Description,Service,Date
+1,Network Connectivity Issue,"Users are reporting intermittent network connectivity problems in Building A.",IT,2022-06-01
+2,Server Crash,"One of the critical servers has crashed, causing service disruption.",IT,2023-06-02
+3,Power Outage,"There is a power outage affecting the entire facility.",Facilities,2021-06-03
+4,Software Bug,"A software bug is causing errors in the billing system.",Finance,2023-06-04
+5,Security Breach,"A security breach has been detected in the company's network.",IT,2022-06-05
+6,Equipment Failure,"One of the production machines has malfunctioned.",Production,2023-06-06
+7,Website Down,"The company website is not accessible.",IT,2020-06-07
+8,Data Loss,"Critical data has been accidentally deleted.",IT,2023-06-08
+9,Quality Issue,"The quality control test has failed for a batch of products.",Quality Control,2021-06-09
+10,Network Slowdown,"The network performance is significantly degraded.",IT,2022-06-10
