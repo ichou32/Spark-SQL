@@ -16,15 +16,14 @@ public class Indestrie {
         Dataset<Row> incedentData = session.read().option("multiline","true")
                 .option("header","true")
                 .csv("indestrie.csv");
-//        incedentData.printSchema();
-//        incedentData.show();
+        incedentData.printSchema();
+        incedentData.show();
 //        Q1: afficher les incident par service
-//        Dataset<Row> incentByService = incedentData.groupBy(col("Service")).count();
-//        incentByService.show();
+        Dataset<Row> incentByService = incedentData.groupBy(col("Service")).count();
+        incentByService.show();
+        
+//        Q2: Afficher les deux annees ou il y\'avait plus d\'incedents
         incedentData.createTempView("view");
-        Dataset<Row> incidentByYear = incedentData.withColumn("year", year(col("Date")));
-//        incidentByYear
-//                .groupBy(col("Service")).count().orderBy("year").show();
         Dataset<Row> result = session.sql("select  count(*) as totalIncidents, YEAR(Date) as year" +
                 " from view " +
                 " GROUP BY YEAR(Date)" +
